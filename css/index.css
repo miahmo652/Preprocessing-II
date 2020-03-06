@@ -168,7 +168,22 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-@import "navigation.less";
+nav {
+  display: flex;
+  margin-top: 3%;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+nav a {
+  padding: 2%;
+  color: #212529;
+  text-decoration: none;
+}
+.navone {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -179,6 +194,22 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+header {
+  margin-left: 20%;
+  width: 60%;
+  margin-bottom: 2%;
+}
+.btn {
+  text-align: center;
+  background-color: #2a8575;
+  border-radius: 7px;
+  color: white;
+  width: 80%;
+  padding: 0.8em;
+}
+.home {
+  border-top: 1px black dashed;
 }
 .home .content-section {
   margin: 30px 0;
